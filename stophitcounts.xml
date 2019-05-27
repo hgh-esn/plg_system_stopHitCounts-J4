@@ -93,138 +93,142 @@
 		<folder>images</folder>
 	</media>
 	<params/>
-	<config>
-				<fields name="params">
-			<fieldset   name="basic">
-				<field  name=""
-						type="spacer"
-						default=""
-						label="PLG_SYSTEM_SHC_BAS_TIPCONF_TXT"
-						description="PLG_SYSTEM_SHC_BAS_TIPCONF_DESC"
-					>
-				</field>
-				<field  name=""
-						type="spacer"
-						default=""
-						label="PLG_SYSTEM_SHC_BAS_ADDCONF_TXT"
-						description="PLG_SYSTEM_SHC_BAS_ADDCONF_DESC"
-					>
-				</field>
-				<field  name=""
-						type="spacer"
-						default=""
-						label="PLG_SYSTEM_SHC_BAS_DOK_TXT"
-						description=""
-					>
-				</field>
-				<field  name=""
-						type="spacer"
-						default=""
-						label="PLG_SYSTEM_SHC_CR"
-						description=""
-					>
-				</field>
-			</fieldset>
-			<fieldset   name="SHC_std_options" addfieldpath="/plugins/system/plg_stophitcounts/images/models/fields">
-				<field 	name="disable_selfcreated_only"
-						type="radio"
-						class="btn-group"
-						data-toggle="buttons-radio"
-						default="1"
-						label="PLG_SYSTEM_SHC_DISABLE_HIT_COUNT_SELF_ONLY_LABEL_TXT"
-						description="PLG_SYSTEM_SHC_DISABLE_HIT_COUNT_SELF_ONLY_LABEL_DESC"
-					>
-					<option value="0">JNO</option>
-					<option value="1">JYES</option>
-				</field>
-				<field 	name="disabled_users"
-						type="sql"
-						label="PLG_SYSTEM_SHC_DISABLE_USER_HIT_COUNT_LABEL_TXT"
-						description="PLG_SYSTEM_SHC_DISABLE_USER_HIT_COUNT_LABEL_DESC"
-						query="SELECT u.id , u.name FROM #__users as u inner join #__user_usergroup_map AS ugm ON ugm.user_id = u.id where ugm.group_id=2"
-						multiple="multiple"
-						key_field="id"
-						value_field="name"
-					>
-				</field>			
-				<field 	name="disabled_groups"
-						type="usergrouplist"
-						multiple="true"
-						size="60"
-						default=""
-						label="PLG_SYSTEM_SHC_DISABLE_GROUP_HIT_COUNT_LABEL_TXT"
-						description="PLG_SYSTEM_SHC_DISABLE_GROUP_HIT_COUNT_LABEL_DESC"
-					>
-				</field>						
-				<field  name="disable_bots"
-						type="radio"
-						class="btn-group"
-						data-toggle="buttons-radio"
-						default="1"
-						label="PLG_SYSTEM_SHC_DISABLE_BOTS_HIT_COUNT_LABEL_TXT"
-						description="PLG_SYSTEM_SHC_DISABLE_BOTS_HIT_COUNT_LABEL_DESC"
-					>
-					<option value="0">JNO</option>
-					<option value="1">JYES</option>
-				</field>
-				<field  name="custom_bots"
-						type="textarea"
-						class="span6"
-						cols="6"
-						default=""
-						rows="6"
-						label="PLG_SYSTEM_SHC_CUSTOM_BOTS_TXT"
-						description="PLG_SYSTEM_SHC_CUSTOM_BOTS_DESC"
-					>
-				</field>
+	<config>    
+	<fields name="params">
+		<fieldset   name="basic">
+			<field  name=""
+					type="spacer"
+					default=""
+					label="PLG_SYSTEM_SHC_BAS_TIPCONF_TXT"
+					description="PLG_SYSTEM_SHC_BAS_TIPCONF_DESC"
+				>
+			</field>
+			<field  name=""
+					type="spacer"
+					default=""
+					label="PLG_SYSTEM_SHC_BAS_ADDCONF_TXT"
+					description="PLG_SYSTEM_SHC_BAS_ADDCONF_DESC"
+				>
+			</field>
+			<field  name=""
+					type="spacer"
+					default=""
+					label="PLG_SYSTEM_SHC_BAS_DOK_TXT"
+					description=""
+				>
+			</field>
+			<field  name=""
+					type="spacer"
+					default=""
+					label="PLG_SYSTEM_SHC_CR"
+					description=""
+				>
+			</field>
 		</fieldset>
-			<fieldset   name="SHC_ext_options">
-				<field  name="log_active"
-						type="radio"
-						class="btn-group"
-						data-toggle="buttons-radio"
-						default="0"
-						label="PLG_SYSTEM_SHC_LOG_ACTIVE_TXT"
-						description="PLG_SYSTEM_SHC_LOG_ACTIVE_DESC"
-					>
-					<option value="0">JNO</option>
-					<option value="1">JYES</option>
-				</field>
-				<field  name="log_path"
-						type="text"
-						readonly="true"
-						default="../administrator/logs"
-						label="PLG_SYSTEM_SHC_LOG_PATH_TXT"
-						description="PLG_SYSTEM_SHC_LOG_PATH_DESC"
-						showon="log_active:1"
-					>
-				</field>
-				<field  name="log_dsn"
-						type="text"
-						readonly="true"
-						default="plg_stophitcounts-log"
-						label="PLG_SYSTEM_SHC_LOG_DSN_TXT"
-						description="PLG_SYSTEM_SHC_LOG_DSN_DESC"
-						showon="log_active:1"
-					>
-				</field>
-				<field  name="qookie_pov"
-						type="list"
-						default="86400"
-						label="PLG_SYSTEM_SHC_QOOKIE_POV_TXT"
-						description="PLG_SYSTEM_SHC_QOOKIE_POV_DESC"
-					>
-					<option value="1800">1/2h - 1800 sec.</option>
-					<option value="3600">1h - 3600 sec.</option>
-					<option value="7200">2h - 7200 sec.</option>
-					<option value="14400">4h - 14400 sec.</option>
-					<option value="14400">6h - 21600 sec.</option>
-					<option value="28800">8h - 28800 sec.</option>
-					<option value="36000">10h - 36000 sec.</option>
-					<option value="43200">12h - 43200 sec.</option>
-					<option value="86400">24h - 86400 sec.</option>
-				</field>
-			</fieldset>
-		</fields>
+		<fieldset   name="SHC_std_options" addfieldpath="/plugins/system/plg_stophitcounts/images/models/fields">
+			<field 	name="disable_selfcreated_only"
+					type="radio"
+					class="switcher"
+					default="1"
+					label="PLG_SYSTEM_SHC_DISABLE_HIT_COUNT_SELF_ONLY_LABEL_TXT"
+					description="PLG_SYSTEM_SHC_DISABLE_HIT_COUNT_SELF_ONLY_LABEL_DESC"
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field 	name="disabled_users"
+					type="sql"
+					label="PLG_SYSTEM_SHC_DISABLE_USER_HIT_COUNT_LABEL_TXT"
+					description="PLG_SYSTEM_SHC_DISABLE_USER_HIT_COUNT_LABEL_DESC"
+					query="SELECT u.id , u.name FROM #__users as u inner join #__user_usergroup_map AS ugm ON ugm.user_id = u.id where ugm.group_id=2"
+					multiple="multiple"
+					key_field="id"
+					value_field="name"
+				>
+			</field>
+			<field 	name="disabled_groups"
+					type="usergrouplist"
+					multiple="true"
+					default=""
+					label="PLG_SYSTEM_SHC_DISABLE_GROUP_HIT_COUNT_LABEL_TXT"
+					description="PLG_SYSTEM_SHC_DISABLE_GROUP_HIT_COUNT_LABEL_DESC"
+				>
+			</field>
+			<field  name="disable_bots"
+					type="radio"
+					class="switcher"
+					default="1"
+					label="PLG_SYSTEM_SHC_DISABLE_BOTS_HIT_COUNT_LABEL_TXT"
+					description="PLG_SYSTEM_SHC_DISABLE_BOTS_HIT_COUNT_LABEL_DESC"
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field  name=""
+					type="spacer"
+					default=""
+					label="PLG_SYSTEM_SHC_DISABLE_BOTS_DOKU_TXT"
+					description="PLG_SYSTEM_SHC_DISABLE_BOTS_DOKU_DESC"
+					showon="disable_bots:1"
+				>
+			</field>			
+			<field  name="custom_bots"
+					type="textarea"
+					class="span6"
+					default=""
+					rows="6"
+					label="PLG_SYSTEM_SHC_CUSTOM_BOTS_TXT"
+					description="PLG_SYSTEM_SHC_CUSTOM_BOTS_DESC"
+					showon="disable_bots:1"
+				>
+			</field>
+		</fieldset>
+		<fieldset   name="SHC_ext_options">
+			<field  name="log_active"
+					type="radio"
+					class="switcher"
+					default="0"
+					label="PLG_SYSTEM_SHC_LOG_ACTIVE_TXT"
+					description="PLG_SYSTEM_SHC_LOG_ACTIVE_DESC"
+				>
+				<option value="0">JNO</option>
+				<option value="1">JYES</option>
+			</field>
+			<field  name="log_path"
+					type="text"
+					readonly="true"
+					default="../administrator/logs"
+					label="PLG_SYSTEM_SHC_LOG_PATH_TXT"
+					description="PLG_SYSTEM_SHC_LOG_PATH_DESC"
+					showon="log_active:1"
+				>
+			</field>
+			<field  name="log_dsn"
+					type="text"
+					readonly="true"
+					default="plg_stophitcounts-log"
+					label="PLG_SYSTEM_SHC_LOG_DSN_TXT"
+					description="PLG_SYSTEM_SHC_LOG_DSN_DESC"
+					showon="log_active:1"
+				>
+			</field>
+			<field  name="qookie_pov"
+					type="list"
+					default="86400"
+					label="PLG_SYSTEM_SHC_QOOKIE_POV_TXT"
+					description="PLG_SYSTEM_SHC_QOOKIE_POV_DESC"
+				>
+				<option value="1800">1/2h - 1800 sec.</option>
+				<option value="3600">1h - 3600 sec.</option>
+				<option value="7200">2h - 7200 sec.</option>
+				<option value="14400">4h - 14400 sec.</option>
+				<option value="14400">6h - 21600 sec.</option>
+				<option value="28800">8h - 28800 sec.</option>
+				<option value="36000">10h - 36000 sec.</option>
+				<option value="43200">12h - 43200 sec.</option>
+				<option value="86400">24h - 86400 sec.</option>
+			</field>
+		</fieldset>
+	</fields>
 	</config>
 </extension>
