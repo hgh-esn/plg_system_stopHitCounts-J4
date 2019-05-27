@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<extension type="plugin" version="3.0" method="upgrade" group="system">
+<extension type="plugin" version="4.0" method="upgrade" group="system">
 	<name>System - stopHitCounts</name>
 	<creationDate>2019-05-27</creationDate>
 	<author>Hans-Guenter Heiserholt [HGH]</author>
@@ -88,17 +88,6 @@
 		<filename>index.html</filename>
 		<filename plugin="stophitcounts">stophitcounts.php</filename>
 	</files>
-<!--
-	<languages folder="language">
-		   
-		this files will be installed in the administrator/language folder.
-			
-			<language tag="en-GB">en-GB/en-GB.plg_system_stophitcounts.ini</language>
-			<language tag="en-GB">en-GB/en-GB.plg_system_stophitcounts.sys.ini</language>
-			<language tag="de-DE">de-DE/de-DE.plg_system_stophitcounts.ini</language>
-			<language tag="de-DE">de-DE/de-DE.plg_system_stophitcounts.sys.ini</language>
-	   </languages>
--->
 	<media destination="plg_stophitcounts" folder="site/assets">
 		<folder>images</folder>
 	</media>
