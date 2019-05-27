@@ -87,7 +87,6 @@
 		<folder>models</folder>
 		<filename>index.html</filename>
 		<filename plugin="stophitcounts">stophitcounts.php</filename>
-		<filename>stophitcounts_CHANGELOG.php</filename>
 	</files>
 <!--
 	<languages folder="language">
