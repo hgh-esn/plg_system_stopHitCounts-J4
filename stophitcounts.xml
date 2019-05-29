@@ -194,16 +194,16 @@
 				<option value="0">JNO</option>
 				<option value="1">JYES</option>
 			</field>
-			<field  name="lpath"
+			<field  name="lgpath"
 					type="text"
 					readonly="true"
-					default="../administrator/logs"
+					default="/administrator/logs"
 					label="PLG_SYSTEM_SHC_LOG_PATH_TXT"
 					description="PLG_SYSTEM_SHC_LOG_PATH_DESC"
 					showon="log_active:1"
 				>
 			</field>
-			<field  name="lfile"
+			<field  name="lgfile"
 					type="text"
 					readonly="true"
 					default="plg_stophitcounts.log.php"
