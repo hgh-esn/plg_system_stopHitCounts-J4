@@ -231,16 +231,17 @@ class plgSystemstopHitCounts extends JPlugin
 			$db->setQuery('UPDATE #__content SET hits = hits - 1 WHERE id = ' .$id);
 			$db->execute();
 
-			if ( $db->getErrorNum() ) 
-			{
-				$msg = $db->getErrorMsg();
-
-				if ( $log_active )
-				{
-					JLog::add($msg);
-				} 
-				return false;
-			}
+//  depriciated in J4
+//			if ( $db->getErrorNum() ) 
+//			{
+//				$msg = $db->getErrorMsg();
+//
+//				if ( $log_active )
+//				{
+//					JLog::add($msg);
+//				} 
+//				return false;
+//			}
 			
             $article->hits = $hits-1;
 			
@@ -274,16 +275,18 @@ class plgSystemstopHitCounts extends JPlugin
 		$db->setQuery($query);
 		$hits 	=  $db->loadResult();
 
-		if ( $db->getErrorNum() ) 
-		{
-			$msg = $db->getErrorMsg();
+//  depriciated in J4
 
-			if ( $log_active )
-			{
-				JLog::add($msg);
-			} 
-			return false;
-		}
+//		if ( $db->getErrorNum() ) 
+//		{
+//			$msg = $db->getErrorMsg();
+//
+//			if ( $log_active )
+//			{
+//				JLog::add($msg);
+//			} 
+//			return false;
+//		}
       		
 		$msg = '- db-logHitCounter[id/hits] = ' .$id .'/' .$hits .'[ ' .$nr .']';
 
