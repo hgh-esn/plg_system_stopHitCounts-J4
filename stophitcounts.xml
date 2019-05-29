@@ -14,9 +14,9 @@
 	   <div align="center">
 		<table border="0" width="90%">
 		   <tr>
-			  <td width="100%" colspan="2" style="font-size: 10pt;">
+			<td width="100%" colspan="2" style="font-size: 10pt;">
 				<div>
-				   <h3>Plugin: Stop Hit Counts</h3>
+				   <h3>Plugin: StopHitCounts</h3>
 				   <a href="https://moba-hgh.de/joomla/myextensions/myplugins/2762-stop-article-hitcounts-stophitcounts" target="_blank" rel="noreferrer">
 				   <img src="../media/plg_stophitcounts/images/shc-logo.png" style="margin-right: 5px; float: left" width="90" alt="shc-logo" title="Link zur Doku-WebSite" />
 				   </a>
@@ -24,17 +24,17 @@
 				   <img alt="Joomla3x_logo" src="../media/plg_stophitcounts/images/j4-svg.jpg" style="margin-right: 5px; float: left" height="20" width="75" />
 				   <br /><br />
 				   <div>
-				   <img src="../media/plg_stophitcounts/images/DE.gif" style="margin-right: 5px; float: left" width="30" alt="de.gif" title="Deutsch" />           
-				   <p style="text-align: justify;">Wenn sie das Plugin <span style="color:blue;">Stop HitCounts</span> nutzen, hinterlassen sie bitte ein Bewertung und einen Kommentar im  
-				   <a href="http://extensions.joomla.org/extensions/site-management/analytics/content-stats" target="_blank" rel="noreferrer">Joomla! Extensions Directory.</a>
-				   Danke dafür.</p>
+					<img src="../media/plg_stophitcounts/images/DE.gif" style="margin-right: 5px; float: left" width="30" alt="de.gif" title="Deutsch" />           
+					<p style="text-align: justify;">Wenn sie das Plugin <span style="color:blue;">Stop HitCounts</span> nutzen, hinterlassen sie bitte ein Bewertung und einen Kommentar im  
+					<a href="http://extensions.joomla.org/extensions/site-management/analytics/content-stats" target="_blank" rel="noreferrer">Joomla! Extensions Directory.</a>
+					Danke dafür.</p>
 				   </div>
 				   <div>
-				   <img src="../media/plg_stophitcounts/images/gb.gif" style="margin-right: 5px; float: left" width="30" alt="gb.gif" title="English-GB" />
-				   <img src="../media/plg_stophitcounts/images/us.gif" style="margin-right: 5px; float: left" width="30" alt="us.gif" title="English-US" />
-				   <p style="text-align: justify;">If you use the Plugin <span style="color:blue;">Stop HitCounts</span>, please post a rating and a comment at the 
-				   <a href="http://extensions.joomla.org/extensions/site-management/analytics/content-stats" target="_blank" rel="noreferrer">Joomla! Extensions Directory.</a>
-				   Thank you for that.</p>
+					<img src="../media/plg_stophitcounts/images/gb.gif" style="margin-right: 5px; float: left" width="30" alt="gb.gif" title="English-GB" />
+					<img src="../media/plg_stophitcounts/images/us.gif" style="margin-right: 5px; float: left" width="30" alt="us.gif" title="English-US" />
+					<p style="text-align: justify;">If you use the Plugin <span style="color:blue;">Stop HitCounts</span>, please post a rating and a comment at the 
+					<a href="http://extensions.joomla.org/extensions/site-management/analytics/content-stats" target="_blank" rel="noreferrer">Joomla! Extensions Directory.</a>
+					Thanks for that.</p>
 				   </div>
 				</div>
 			  </td>
@@ -44,21 +44,21 @@
 			 <div name="language">
 				<div name="de-DE">
 				  <hr>
-				   <span style="color:red;"><strong>Wichtig:</strong></span>
-				   <p style="text-align: justify;">Sie müssen das Plugin nun abschließend noch manuell aktivieren/konfigurieren. Dazu gehen sie zum <strong>Plugin Manager</strong><a href="index.php?option=com_plugins&amp;view=plugins"> (benutzen sie diesen Link)</a>. Aktivieren sie das Plugin und setzen sie die Zugriffsstufe auf <strong>"public"</strong>.
-				   In den Reitern (Standard/Erweitert) können sie die weitere Detail-Konfiguration vornehmen. Zuletzt speichern sie ihre Einstellungen.</p>
-				   <span style="color:red;"><strong>Haftungsausschluss:</strong></span>
-				   <p style="text-align: justify;">Diese Software wurde nach bestem Wissen für das CMS Joomla programmiert. Die Nutzung erfolgt aber trotzdem auf eigene Gefahr.
-				   Der Author übernimmt keine Haftung für Fehler, die aus der Handhabung bzw. aus einer nicht geeigneten Joomla-Installation herrühren.</p>
+				  <span style="color:red;"><strong>Wichtig:</strong></span>
+				  <p style="text-align: justify;">Sie müssen das Plugin nun abschließend noch manuell aktivieren/konfigurieren. Dazu gehen sie zum <strong>Plugin-Manager</strong><a href="index.php?option=com_plugins&amp;view=plugins"> (benutzen sie diesen Link)</a>. Aktivieren sie das Plugin und setzen sie die Zugriffsstufe auf <strong>"public"</strong>.
+				  In den Reitern (Standard/Erweitert) können sie die weitere Detail-Konfiguration vornehmen. Zuletzt speichern sie ihre Einstellungen.</p>
+				  <span style="color:red;"><strong>Haftungsausschluss:</strong></span>
+				  <p style="text-align: justify;">Diese Software wurde nach bestem Wissen für das CMS Joomla programmiert. Die Nutzung erfolgt aber trotzdem auf eigene Gefahr.
+				  Der Author übernimmt keine Haftung für Fehler, die aus der Handhabung bzw. aus einer nicht geeigneten Joomla-Installation herrühren.</p>
 				</div>
-				<div name="en-EN">
-				   <hr>
-				   <span style="color:red;"><strong>Important:</strong></span>
-				   <p style="text-align: justify;">Finally you must enable the plugin manually now. For that go to the <strong>plugin manager</strong><a href="index.php?option=com_plugins&amp;view=plugins"> (use this link)</a>. Enable the plugin, set the accesslevel to <strong>public</strong>. 
-				   Then go to the tabs(standart/extendet) to configure the plugin and at least, <strong>save</strong> the settings.</p>
-				   <span style="color:red;"><strong>Disclaimer:</strong></span>
-				   <p style="text-align: justify;">This software has been programmed to the best knowledge for the CMS Joomla. The data is used but still at your own risk.
-				   The author assumes no liability for errors arising from the handling or from an unsuitable Joomla installation.</p>
+				<div name="en-GB">
+				  <hr>
+				  <span style="color:red;"><strong>Important:</strong></span>
+				  <p style="text-align: justify;">Finally you must enable the plugin manually now. For that, go to the <strong>plugin-manager</strong><a href="index.php?option=com_plugins&amp;view=plugins"> (use this link)</a>. Enable the plugin, set the accesslevel to <strong>public</strong>. 
+				  Then go to the tabs(standart/extendet) to configure the plugin and at least, <strong>save</strong> the settings.</p>
+				  <span style="color:red;"><strong>Disclaimer:</strong></span>
+				  <p style="text-align: justify;">This software has been programmed to the best knowledge for the CMS Joomla. The data is used but still at your own risk.
+				  The author assumes no liability for errors arising from the handling or from an unsuitable Joomla installation.</p>
 				</div>
 			  </div>        
 			  </td>
@@ -197,7 +197,7 @@
 			<field  name="log_path"
 					type="text"
 					readonly="true"
-					default="../administrator/logs"
+					default="../logs"
 					label="PLG_SYSTEM_SHC_LOG_PATH_TXT"
 					description="PLG_SYSTEM_SHC_LOG_PATH_DESC"
 					showon="log_active:1"
