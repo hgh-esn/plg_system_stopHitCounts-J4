@@ -462,8 +462,14 @@ jimport('joomla.log.log');
     // Set the name of the log file
     // (optional) you can change the directory 
 
-    $options = array('text_file'      => 'plg_stophitcounts-log',            
-                     'text_file_path' => 'administrator/logs');
+//  bringen errors !!!!
+//	echo '<br />' .'param-logfile= ' .$this->params->get('log_file');
+//	echo '<br />' .'param-logpath= ' .$this->params->get('log_path');
+
+    $options = array(
+		'text_file'      => 'plg_stophitcounts.log.php',            
+		'text_file_path' => 'administrator/logs'
+	);
 
 // Pass the array of configuration options    
 
