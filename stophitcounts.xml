@@ -77,7 +77,7 @@
 	<update>
 		<schemas/>
 	</update>
-	<changelogurl>https://moba-hgh.de/updateserver/extensions/updates/changelogs.xml</changelogurl>
+	<changelogurl>https://moba-hgh.de/updateserver/extensions/updates/changelog.xml</changelogurl>
 	<updateservers>
 		<server name="HGHs UpdateServer - stopHitCounts" type="extension" priority="2">https://moba-hgh.de/updateserver/extensions/updates/plg_stophitcounts.xml</server>
 	</updateservers>
